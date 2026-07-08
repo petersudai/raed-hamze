@@ -28,16 +28,17 @@ export default function Reach() {
           </div>
 
           <div className="lg:col-span-7 lg:pl-6">
-            <div className="flex flex-col">
+            <div className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2">
               {reach.map((r, i) => (
-                <Reveal key={r.country} delay={i * 0.07}>
-                  <div className="flex items-center justify-between gap-6 border-t border-bronze/25 py-6">
-                    <span className="text-2xl text-ink">{r.country}</span>
-                    <span className="hidden font-mono text-xs text-ink/65 sm:block">{r.note}</span>
+                <Reveal key={r.region} delay={i * 0.08}>
+                  <div className="border-t border-bronze/25 pt-6">
+                    <span className="eyebrow text-bronze">{r.region}</span>
+                    <p className="mt-3 text-2xl leading-snug text-ink">
+                      {r.countries.join(", ")}
+                    </p>
                   </div>
                 </Reveal>
               ))}
-              <div className="hairline" />
             </div>
           </div>
         </div>

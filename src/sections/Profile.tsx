@@ -18,7 +18,7 @@ export default function Profile() {
             <Reveal delay={0.1} className="mt-8 overflow-hidden rounded-sm">
               <img
                 src={img.portrait}
-                alt="Portrait placeholder for Raed Hamze"
+                alt="Raed Hamze"
                 className="aspect-[4/5] w-full max-w-sm object-cover grayscale contrast-110"
               />
             </Reveal>

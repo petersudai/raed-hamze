@@ -4,7 +4,7 @@ export const img = {
   villaPool: "https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=1800&auto=format&fit=crop",
   abuDhabi: "https://images.unsplash.com/photo-1509316785289-025f5b846b35?q=80&w=1800&auto=format&fit=crop",
   interior: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1800&auto=format&fit=crop",
-  portrait: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1400&auto=format&fit=crop",
+  portrait: "/raed-hamze-portrait.jpg",
   facade: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=1800&auto=format&fit=crop",
   dusk: "https://images.unsplash.com/photo-1518684079-3c830dcef090?q=80&w=2400&auto=format&fit=crop",
 };
@@ -67,11 +67,10 @@ export const awards = [
 ];
 
 export const reach = [
-  { country: "United Arab Emirates", note: "Home market: Abu Dhabi & Dubai" },
-  { country: "Japan", note: "Investment relations delegation" },
-  { country: "China", note: "Investment relations delegation" },
-  { country: "Russia", note: "Investment relations delegation" },
-  { country: "Nigeria", note: "Investment relations delegation" },
+  { region: "Home Market", countries: ["United Arab Emirates"] },
+  { region: "Asia", countries: ["Japan", "China"] },
+  { region: "Europe", countries: ["Russia"] },
+  { region: "Africa", countries: ["Nigeria"] },
 ];
 
 export const testimonials = [
